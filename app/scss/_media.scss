@@ -1,0 +1,276 @@
+@media (max-width: 1425px) {
+    .header .head-main .head-text h1 {
+        font-size: 60px;
+        line-height: 78px;
+    }
+
+    .header .head-main {
+        align-items: flex-end;
+    }
+
+    .footer {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 1190px) {
+    .header .head-menu .logo {
+        margin-left: 20px;
+    }
+
+    .header .head-menu .menu-btn {
+        margin-right: 20px;
+    }
+
+    .header .head-menu .navigation .tel {
+        padding-right: 20px;
+    }
+
+    .header .head-main {
+        padding: 0 20px;
+    }
+
+    .future .future-text {
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+
+    .slick-next, .slick-prev {
+        height: 0;
+    }
+
+    .footer .foot-info {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .header .head-menu .navigation .tel a {
+        margin-left: 100px;
+    }
+
+    .future {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .shaping .shaping-wrapp {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shaping .shaping-wrapp .shaping-text {
+        margin-right: 0;
+    }
+
+    .services {
+        padding-top: 50px;
+    }
+
+    .services .categories {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .services .categories>div {
+        margin-bottom: -20px;
+    }
+
+    .services .categories>div::after {
+        left: 38%;
+    }
+}
+
+@media (max-width: 920px) {
+    .header .head-main .head-text .arr {
+        padding: 10px 86px 10px 5px;
+        width: 435px;
+        text-align: center;
+    }
+
+    .header .head-main .head-text .arr::after {
+        right: 10px;
+        bottom: 14px;
+    }
+
+    .header .head-main .head-text h1 {
+        margin-bottom: 50px;
+    }
+    .future .img .comments {
+       display: none;
+    }
+}
+
+@media (max-width: 860px) {
+    .header .head-menu .navigation .tel a {
+        margin-left: 50px;
+    }
+
+    .footer {
+        padding-top: 55px;
+        padding-bottom: 75px;
+    }
+
+    .footer .foot-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer .follow .follow-border {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .footer .contact,
+    .footer .services-footer,
+    .footer .menu {
+        margin-top: 30px;
+    }
+
+    .footer .follow ul>li {
+        margin: auto;
+    }
+
+    .portfolio .portfolio-slider .johnes .faces img {
+        top: 100px;
+    }
+}
+
+@media (max-width: 780px) {
+    .header .head-menu .navigation .tel a {
+        margin-left: 0;
+    }
+
+    .subscribe {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 730px) {
+
+    .navigation {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin-top: 228px;
+        background: #5E239D;
+        z-index: 50;
+    }
+
+    .header .head-menu .navigation ul>li {
+        display: block;
+        border-top: 1px solid $main-color;
+        border-bottom: 1px solid $main-color;
+        padding: 5px 0;
+    }
+
+    .header .head-menu .navigation .tel {
+        margin-left: 0;
+    }
+
+    .header .head-menu .navigation .tel a {
+        width: 180px;
+        margin: 0 auto;
+    }
+
+    .header .head-menu .navigation ul>li:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .header .head-menu .navigation ul>li a {
+        display: block;
+    }
+
+    .header .head-menu .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 570px) {
+    .shaping .shaping-wrapp .transform {
+        top: 134px;
+        right: -60px;
+    }
+
+    .subscribe .form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 502px) {
+    .header {
+        padding: 10px;
+    }
+
+    .header .head-main .head-text .arr {
+        width: 100%;
+    }
+
+    .header .head-main {
+        padding: 0 5px;
+    }
+
+    .header .head-main .head-text h1 {
+        font-size: 35px;
+        line-height: 51px;
+    }
+
+    .header .head-menu .logo {
+        margin-left: 5px;
+    }
+
+    .header .head-menu .menu-btn {
+        margin-right: 5px;
+    }
+
+    .header .head-main .head-text .scroll {
+        display: none;
+    }
+
+    .btn {
+        margin: 0 auto;
+    }
+
+    .shaping .shaping-wrapp {
+        padding: 0 10px;
+    }
+
+    .services .our-services {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 438px) {
+    .subscribe .form input {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .subscribe .form a {
+        left: 60px;
+    }
+
+    .subscribe .form a::after {
+        right: 60px;
+    }
+
+    .subscribe .form {
+        border: 0;
+    }
+}
+
+
+
+@media (min-width: 730px) {
+    .navigation {
+        display: block !important;
+    }
+}

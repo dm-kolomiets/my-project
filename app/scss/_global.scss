@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+%container {
+    max-width: 1173px;
+    margin: 0 auto;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif ;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #FCFCFC;
+    background: #FCFCFC;
+}
+
+a {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FCFCFC;
+    text-decoration: none;
+}
+
+ul > li {
+    list-style: none;
+    display: inline-block; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 99px;
+    line-height: 118px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 67px;
+}
+
+.title-red {
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 26px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: $main-color;
+}
+
+.btn {
+    width: 197px;
+    height: 45px;
+    display: block;
+    background: $main-color;
+    border-radius: 36px;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 600ms ease;
+
+    &:hover {
+        cursor: pointer;
+        background: #F0002B;
+        animation-name: animatebtn;
+        animation-duration: 1s;
+    }
+}
+
+.green, .red, .orange {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 27px;
+}
+
+.green {color: #00F0B5;}
+
+.red {color: $main-color;}
+
+.orange {color: #F67110;}
+
+.slick-next {
+    background-color: $main-color;
+    background-image: url('../img/Arrow-long.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 600ms ease;
+    display: block;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 147px;
+    top: 80%;
+}
+
+.slick-prev {
+    background-color: $main-color;
+    background-image: url('../img/Arrow-long.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+    transition: all 600ms ease;
+    display: block;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 147px;
+    top: 80%;
+    z-index: 1000;
+}
+
+.slick-next:hover, .slick-prev:hover {
+    cursor: pointer;
+    background-color: #F0002B;
+} 
+
+.bottom-line {
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 26px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    border-bottom: 1px solid $main-color ;
+}
+
+
+@keyframes animatebtn {
+    15% {
+      transform: translateX(9px);
+    }
+    30% {
+      transform: translateX(-9px);
+    }
+    40% {
+      transform: translateX(6px);
+    }
+    50% {
+      transform: translateX(-6px);
+    }
+    65% {
+      transform: translateX(3px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .scroll-top {
+    background:#5E239D;
+    box-shadow:0 0 2px rgba(0,0,0,0.4);
+    bottom:60px;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    border-radius: 50%;
+    right: 20px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 9999;
+    animation: fadeInUp 1200ms linear infinite;
+
+    &:hover {
+        animation: none;
+    }
+    }
+    .scroll-top i {
+    font-size: 14px;
+    line-height: 40px;
+    color:#fff!important;
+    }
